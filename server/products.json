@@ -1,0 +1,22 @@
+{
+    "products": [{
+        "ID": "1",
+        "Title": "DualSense Wireless Controller",
+        "Rating": "5",
+        "CompanyName": "Play Station 5",
+        "Image":"/assets/image1.jpg",
+        "Price":"$69.96",
+        "Description": "Ships from and sold by Amazon.com. Haptic feedback - Feel physically responsive feedback to your in-game actions with dual actuators which replace traditional rumble motors. In your hands, these dynamic vibrations can simulate the feeling of everything from environments to the recoil of different weapons.",
+        "Stock": "In Stock"
+    },
+    {
+        "ID": "2",
+        "Title": "Nintendo Switch Pro Controller",
+        "Rating": "4.5",
+        "CompanyName": "Nintendo Switch",
+        "Image":"assets/image2.jpg",
+        "Price":"$58",
+        "Description": "Take your game sessions up a notch with the Nintendo Switch Pro Controller. \nHandheld Nintendo Switch gaming at a great price. \nComes with charging cable (USB C to USB A).",
+        "Stock": "Out of Stock"
+    }]
+}

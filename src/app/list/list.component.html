@@ -1,0 +1,33 @@
+<div *ngFor="let product of products" style="padding: 13px;">
+    <mat-card style="margin-top:11px;">
+        <mat-card-header class="col-md-6" style="float:right;padding: 50px 10px;">
+            <mat-card-title>
+                <a style="text-decoration:none" href="product/{{product.ID}}">{{product.Title}}</a>
+            </mat-card-title>
+            <!-- <mat-card-subtitle style="color:yellow">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+            </mat-card-subtitle> -->
+            <mat-card-subtitle>
+                <b>Rating: </b> <b style="color: greenyellow;"><a style="text-decoration:none" href="product/{{product.ID}}">{{product.Rating}}</a></b>
+            </mat-card-subtitle>
+
+            <mat-card-subtitle>
+                <b><a href="product/{{product.ID}}">{{product.CompanyName}}</a></b>
+            </mat-card-subtitle>
+            
+            <mat-card-subtitle>
+                <b><a style="text-decoration:none" href="product/{{product.ID}}">{{product.Price}}</a></b>
+            </mat-card-subtitle>
+        </mat-card-header>
+
+        <mat-card-content>
+            <a style="text-decoration:none" href="product/{{product.ID}}"><img style="height:30%; width: 30%;" src="{{ product.Image }}" /></a>
+        </mat-card-content>
+        <mat-card-actions>
+    </mat-card-actions>
+    </mat-card>
+</div>
